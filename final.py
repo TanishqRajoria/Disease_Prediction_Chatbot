@@ -9,7 +9,7 @@ from pathlib import Path
 from PIL import Image
 
 # ==================== CONFIGURATION ====================
-GEMINI_API_KEY = "AIzaSyDJ2YwuqgH0CLOQwMhwBvI08FRRMxQ56kM"  # Add your Gemini API key
+GEMINI_API_KEY = ""  # Add your Gemini API key
 CHROMA_DB_PATH = "./db"
 COLLECTION_NAME = "sym_collection"
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
