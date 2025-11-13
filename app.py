@@ -194,7 +194,7 @@ st.markdown("""
 
 # ==================== CONFIGURATION ====================
 
-GEMINI_API_KEY = "AIzaSyCUtVi_PmwF9t40OBKeU5J7vBv4NUxASAU"  # Add your Gemini API key here
+GEMINI_API_KEY = ""  # Add your Gemini API key here
 CHROMA_DB_PATH = "./db"
 COLLECTION_NAME = "sym_collection"
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
@@ -684,4 +684,5 @@ def main():
                     )
 
 if __name__ == "__main__":
+
     main()
